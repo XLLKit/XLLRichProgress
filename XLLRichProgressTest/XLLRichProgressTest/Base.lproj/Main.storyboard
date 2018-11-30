@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Q8-7m-osg">
+                                <rect key="frame" x="50" y="452" width="60" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="YA9-ft-8CB"/>
+                                    <constraint firstAttribute="width" constant="60" id="dNO-ip-LuY"/>
+                                </constraints>
+                                <state key="normal" title="开始"/>
+                                <connections>
+                                    <action selector="onStart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gXe-gJ-cJ8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBJ-2a-NI5">
+                                <rect key="frame" x="157.5" y="452" width="60" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Xzz-9T-SiF"/>
+                                    <constraint firstAttribute="height" constant="35" id="jXy-ob-wOs"/>
+                                </constraints>
+                                <state key="normal" title="失败"/>
+                                <connections>
+                                    <action selector="onFailed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNQ-EN-AGC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7C-FW-WFC">
+                                <rect key="frame" x="265" y="452" width="60" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Nge-R0-2pi"/>
+                                    <constraint firstAttribute="height" constant="35" id="mdv-cL-FrQ"/>
+                                </constraints>
+                                <state key="normal" title="恢复"/>
+                                <connections>
+                                    <action selector="onResume:" destination="BYZ-38-t0r" eventType="touchUpInside" id="91C-vx-kXj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8Q8-7m-osg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="7pV-PR-gMH"/>
+                            <constraint firstAttribute="trailing" secondItem="d7C-FW-WFC" secondAttribute="trailing" constant="50" id="JTe-qO-UPL"/>
+                            <constraint firstItem="kBJ-2a-NI5" firstAttribute="centerY" secondItem="8Q8-7m-osg" secondAttribute="centerY" id="Nh8-p2-L99"/>
+                            <constraint firstItem="kBJ-2a-NI5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UWc-P0-g6x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8Q8-7m-osg" secondAttribute="bottom" constant="180" id="agd-b4-NVH"/>
+                            <constraint firstItem="d7C-FW-WFC" firstAttribute="centerY" secondItem="kBJ-2a-NI5" secondAttribute="centerY" id="l5Z-6X-LpF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

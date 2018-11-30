@@ -1,0 +1,14 @@
+//
+//  XLLRichProgress-Prefix.pch
+//  XLLRichProgressTest
+//
+//  Created by 肖乐 on 2018/11/29.
+//  Copyright © 2018 iOSCoder. All rights reserved.
+//
+
+#ifndef XLLRichProgress_Prefix_pch
+#define XLLRichProgress_Prefix_pch
+
+    #import "XLLMacro.h"
+
+#endif /* XLLRichProgress_Prefix_pch */

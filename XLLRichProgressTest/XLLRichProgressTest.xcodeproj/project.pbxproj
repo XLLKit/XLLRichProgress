@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A914C96E21AE854E00F40602 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A914C96D21AE854E00F40602 /* AppDelegate.m */; };
+		A914C97121AE854E00F40602 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A914C97021AE854E00F40602 /* ViewController.m */; };
+		A914C97421AE854E00F40602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A914C97221AE854E00F40602 /* Main.storyboard */; };
+		A914C97721AE854E00F40602 /* XLLRichProgressTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A914C97521AE854E00F40602 /* XLLRichProgressTest.xcdatamodeld */; };
+		A914C97921AE854F00F40602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A914C97821AE854F00F40602 /* Assets.xcassets */; };
+		A914C97C21AE854F00F40602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A914C97A21AE854F00F40602 /* LaunchScreen.storyboard */; };
+		A914C97F21AE854F00F40602 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A914C97E21AE854F00F40602 /* main.m */; };
+		A914C98921AE854F00F40602 /* XLLRichProgressTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A914C98821AE854F00F40602 /* XLLRichProgressTestTests.m */; };
+		A914C99C21AE861B00F40602 /* XLLProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A914C99B21AE861B00F40602 /* XLLProgressBar.m */; };
+		A914C99F21AE864A00F40602 /* XLLProgressMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = A914C99E21AE864A00F40602 /* XLLProgressMsg.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A914C98521AE854F00F40602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A914C96121AE854E00F40602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A914C96821AE854E00F40602;
+			remoteInfo = XLLRichProgressTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A914C96921AE854E00F40602 /* XLLRichProgressTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLLRichProgressTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A914C96C21AE854E00F40602 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A914C96D21AE854E00F40602 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A914C96F21AE854E00F40602 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A914C97021AE854E00F40602 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A914C97321AE854E00F40602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A914C97621AE854E00F40602 /* XLLRichProgressTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XLLRichProgressTest.xcdatamodel; sourceTree = "<group>"; };
+		A914C97821AE854F00F40602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A914C97B21AE854F00F40602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A914C97D21AE854F00F40602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A914C97E21AE854F00F40602 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A914C98421AE854F00F40602 /* XLLRichProgressTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLLRichProgressTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A914C98821AE854F00F40602 /* XLLRichProgressTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLRichProgressTestTests.m; sourceTree = "<group>"; };
+		A914C98A21AE854F00F40602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A914C99A21AE861B00F40602 /* XLLProgressBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLProgressBar.h; sourceTree = "<group>"; };
+		A914C99B21AE861B00F40602 /* XLLProgressBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLProgressBar.m; sourceTree = "<group>"; };
+		A914C99D21AE864A00F40602 /* XLLProgressMsg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLProgressMsg.h; sourceTree = "<group>"; };
+		A914C99E21AE864A00F40602 /* XLLProgressMsg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLProgressMsg.m; sourceTree = "<group>"; };
+		A922700221AFBAC100A7E798 /* XLLRichProgress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLLRichProgress-Prefix.pch"; sourceTree = "<group>"; };
+		A922700321AFBAD600A7E798 /* XLLMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLMacro.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A914C96621AE854E00F40602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A914C98121AE854F00F40602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A914C96021AE854E00F40602 = {
+			isa = PBXGroup;
+			children = (
+				A914C96B21AE854E00F40602 /* XLLRichProgressTest */,
+				A914C98721AE854F00F40602 /* XLLRichProgressTestTests */,
+				A914C96A21AE854E00F40602 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A914C96A21AE854E00F40602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A914C96921AE854E00F40602 /* XLLRichProgressTest.app */,
+				A914C98421AE854F00F40602 /* XLLRichProgressTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A914C96B21AE854E00F40602 /* XLLRichProgressTest */ = {
+			isa = PBXGroup;
+			children = (
+				A922700121AFBA9A00A7E798 /* Public */,
+				A914C99921AE860700F40602 /* Progress */,
+				A914C99521AE85CD00F40602 /* General */,
+				A914C99421AE85BA00F40602 /* SupportingFiles */,
+				A914C99321AE85AF00F40602 /* Appdelegate */,
+				A914C97521AE854E00F40602 /* XLLRichProgressTest.xcdatamodeld */,
+			);
+			path = XLLRichProgressTest;
+			sourceTree = "<group>";
+		};
+		A914C98721AE854F00F40602 /* XLLRichProgressTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A914C98821AE854F00F40602 /* XLLRichProgressTestTests.m */,
+				A914C98A21AE854F00F40602 /* Info.plist */,
+			);
+			path = XLLRichProgressTestTests;
+			sourceTree = "<group>";
+		};
+		A914C99321AE85AF00F40602 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A914C96C21AE854E00F40602 /* AppDelegate.h */,
+				A914C96D21AE854E00F40602 /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		A914C99421AE85BA00F40602 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A914C97221AE854E00F40602 /* Main.storyboard */,
+				A914C97821AE854F00F40602 /* Assets.xcassets */,
+				A914C97A21AE854F00F40602 /* LaunchScreen.storyboard */,
+				A914C97D21AE854F00F40602 /* Info.plist */,
+				A914C97E21AE854F00F40602 /* main.m */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A914C99521AE85CD00F40602 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				A914C99821AE85E400F40602 /* Models */,
+				A914C99721AE85E000F40602 /* Views */,
+				A914C99621AE85D600F40602 /* Controllers */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		A914C99621AE85D600F40602 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A914C96F21AE854E00F40602 /* ViewController.h */,
+				A914C97021AE854E00F40602 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A914C99721AE85E000F40602 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A914C99821AE85E400F40602 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A914C99921AE860700F40602 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				A914C99A21AE861B00F40602 /* XLLProgressBar.h */,
+				A914C99B21AE861B00F40602 /* XLLProgressBar.m */,
+				A914C99D21AE864A00F40602 /* XLLProgressMsg.h */,
+				A914C99E21AE864A00F40602 /* XLLProgressMsg.m */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		A922700121AFBA9A00A7E798 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				A922700221AFBAC100A7E798 /* XLLRichProgress-Prefix.pch */,
+				A922700321AFBAD600A7E798 /* XLLMacro.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A914C96821AE854E00F40602 /* XLLRichProgressTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A914C98D21AE854F00F40602 /* Build configuration list for PBXNativeTarget "XLLRichProgressTest" */;
+			buildPhases = (
+				A914C96521AE854E00F40602 /* Sources */,
+				A914C96621AE854E00F40602 /* Frameworks */,
+				A914C96721AE854E00F40602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLLRichProgressTest;
+			productName = XLLRichProgressTest;
+			productReference = A914C96921AE854E00F40602 /* XLLRichProgressTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A914C98321AE854F00F40602 /* XLLRichProgressTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A914C99021AE854F00F40602 /* Build configuration list for PBXNativeTarget "XLLRichProgressTestTests" */;
+			buildPhases = (
+				A914C98021AE854F00F40602 /* Sources */,
+				A914C98121AE854F00F40602 /* Frameworks */,
+				A914C98221AE854F00F40602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A914C98621AE854F00F40602 /* PBXTargetDependency */,
+			);
+			name = XLLRichProgressTestTests;
+			productName = XLLRichProgressTestTests;
+			productReference = A914C98421AE854F00F40602 /* XLLRichProgressTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A914C96121AE854E00F40602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = iOSCoder;
+				TargetAttributes = {
+					A914C96821AE854E00F40602 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A914C98321AE854F00F40602 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A914C96821AE854E00F40602;
+					};
+				};
+			};
+			buildConfigurationList = A914C96421AE854E00F40602 /* Build configuration list for PBXProject "XLLRichProgressTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A914C96021AE854E00F40602;
+			productRefGroup = A914C96A21AE854E00F40602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A914C96821AE854E00F40602 /* XLLRichProgressTest */,
+				A914C98321AE854F00F40602 /* XLLRichProgressTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A914C96721AE854E00F40602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A914C97C21AE854F00F40602 /* LaunchScreen.storyboard in Resources */,
+				A914C97921AE854F00F40602 /* Assets.xcassets in Resources */,
+				A914C97421AE854E00F40602 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A914C98221AE854F00F40602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A914C96521AE854E00F40602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A914C97121AE854E00F40602 /* ViewController.m in Sources */,
+				A914C99F21AE864A00F40602 /* XLLProgressMsg.m in Sources */,
+				A914C97721AE854E00F40602 /* XLLRichProgressTest.xcdatamodeld in Sources */,
+				A914C99C21AE861B00F40602 /* XLLProgressBar.m in Sources */,
+				A914C97F21AE854F00F40602 /* main.m in Sources */,
+				A914C96E21AE854E00F40602 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A914C98021AE854F00F40602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A914C98921AE854F00F40602 /* XLLRichProgressTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A914C98621AE854F00F40602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A914C96821AE854E00F40602 /* XLLRichProgressTest */;
+			targetProxy = A914C98521AE854F00F40602 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A914C97221AE854E00F40602 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A914C97321AE854E00F40602 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A914C97A21AE854F00F40602 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A914C97B21AE854F00F40602 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A914C98B21AE854F00F40602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A914C98C21AE854F00F40602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A914C98E21AE854F00F40602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4XJ3J29UK;
+				GCC_PREFIX_HEADER = "./XLLRichProgressTest/Public/XLLRichProgress-Prefix.pch";
+				INFOPLIST_FILE = XLLRichProgressTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSCoder.XLLRichProgressTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A914C98F21AE854F00F40602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4XJ3J29UK;
+				GCC_PREFIX_HEADER = "./XLLRichProgressTest/Public/XLLRichProgress-Prefix.pch";
+				INFOPLIST_FILE = XLLRichProgressTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSCoder.XLLRichProgressTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A914C99121AE854F00F40602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XLLRichProgressTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSCoder.XLLRichProgressTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLLRichProgressTest.app/XLLRichProgressTest";
+			};
+			name = Debug;
+		};
+		A914C99221AE854F00F40602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XLLRichProgressTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSCoder.XLLRichProgressTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLLRichProgressTest.app/XLLRichProgressTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A914C96421AE854E00F40602 /* Build configuration list for PBXProject "XLLRichProgressTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A914C98B21AE854F00F40602 /* Debug */,
+				A914C98C21AE854F00F40602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A914C98D21AE854F00F40602 /* Build configuration list for PBXNativeTarget "XLLRichProgressTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A914C98E21AE854F00F40602 /* Debug */,
+				A914C98F21AE854F00F40602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A914C99021AE854F00F40602 /* Build configuration list for PBXNativeTarget "XLLRichProgressTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A914C99121AE854F00F40602 /* Debug */,
+				A914C99221AE854F00F40602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A914C97521AE854E00F40602 /* XLLRichProgressTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A914C97621AE854E00F40602 /* XLLRichProgressTest.xcdatamodel */,
+			);
+			currentVersion = A914C97621AE854E00F40602 /* XLLRichProgressTest.xcdatamodel */;
+			path = XLLRichProgressTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A914C96121AE854E00F40602 /* Project object */;
+}
